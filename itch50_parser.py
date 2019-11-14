@@ -283,11 +283,12 @@ def testCalculateHour():
     testTime = 57500000113132
     print(endTime, testTime)
     print(calculateHour(testTime, endTime))
+    return
 
 #testCalculateHour()
+#print(os.listdir())
 
 # Set the desired file to parse here
-#print(os.listdir())
-fileName = '01302019.NASDAQ_ITCH50.gz'
+fileName = ''
 main(fileName)
 
